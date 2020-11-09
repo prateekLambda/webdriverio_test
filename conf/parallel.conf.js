@@ -17,7 +17,7 @@ exports.config = {
   ],
   exclude: [],
 
-  maxInstances: 3,
+  maxInstances: 10,
   commonCapabilities: {
     name: 'Parallel Sample Test',
     build: 'WebDriver Selenium Sample1'
@@ -38,6 +38,21 @@ exports.config = {
       platform: "win10",
       browserName: "internet explorer",
       version: "11.0"
+    },
+    {
+    "platform" : "Android",
+		"deviceName" : "Galaxy S10",
+		"platformVersion" : "9"
+    },
+    {
+    "platform" : "Android",
+		"deviceName" : "Galaxy S10",
+		"platformVersion" : "9"
+    },
+    {
+    "platform" : "Android",
+		"deviceName" : "Galaxy S10",
+		"platformVersion" : "9"
     }
   ],
 
