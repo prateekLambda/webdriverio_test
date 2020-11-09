@@ -20,7 +20,7 @@ exports.config = {
   maxInstances: 10,
   commonCapabilities: {
     name: 'Parallel Sample Test',
-    build: 'WebDriver Selenium Sample1'
+    build: 'WebDriver Selenium Sample3'
   },
 
   capabilities: [
@@ -39,6 +39,21 @@ exports.config = {
       browserName: "internet explorer",
       version: "11.0"
     },
+	  {
+		  "platform" : "iOS",
+		"deviceName" : "iPhone 11",
+		"platformVersion" : "13.6"
+	  },
+	  {
+		  "platform" : "iOS",
+		"deviceName" : "iPhone 11",
+		"platformVersion" : "13.6"
+	  },
+	  {
+		  "platform" : "iOS",
+		"deviceName" : "iPhone 11",
+		"platformVersion" : "13.6"
+	  },
     {
     "platform" : "Android",
 		"deviceName" : "Galaxy S10",
