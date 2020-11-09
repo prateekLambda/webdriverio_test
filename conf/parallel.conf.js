@@ -75,15 +75,16 @@ exports.config = {
   coloredLogs: true,
   screenshotPath: "./errorShots/",
   baseUrl: "",
-  waitforTimeout: 10000,
-  connectionRetryTimeout: 90000,
+  waitforTimeout: 99999999,
+  connectionRetryTimeout: 99999999,
   connectionRetryCount: 3,
   path: "/wd/hub",
   hostname: "hub.lambdatest.com",
   port: 80,
   framework: "mocha",
   mochaOpts: {
-    ui: "bdd"
+    ui: "bdd",
+    timeout: 99999999
   }
 };
 
