@@ -10,8 +10,8 @@ exports.config = {
       }
     ]
   ],
-  user: 'prateek.delguy',
-  key: '9DjIGDAUAnyqaNELLFGeGyLCcdW2W4diRXje0U5yaHr8nAReqE',
+  user: 'prateeks',
+  key: 'IuCSesD83A7LsTFzEKS0Lb6tzvEfBQ38DMkFTEpudatxxxsdjH',
   specs: [
     './tests/specs/single_test.js'
   ],
