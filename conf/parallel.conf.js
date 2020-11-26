@@ -39,36 +39,18 @@ exports.config = {
       browserName: "internet explorer",
       version: "11.0"
     },
-	  {
+	{
 		  "platform" : "iOS",
 		"deviceName" : "iPhone 11",
 		"platformVersion" : "13.6"
 	  },
-	  {
-		  "platform" : "iOS",
-		"deviceName" : "iPhone 11",
-		"platformVersion" : "13.6"
-	  },
-	  {
-		  "platform" : "iOS",
-		"deviceName" : "iPhone 11",
-		"platformVersion" : "13.6"
-	  },
+	
     {
-    "platform" : "Android",
-		"deviceName" : "Galaxy S10",
-		"platformVersion" : "9"
-    },
-    {
-    "platform" : "Android",
-		"deviceName" : "Galaxy S10",
-		"platformVersion" : "9"
-    },
-    {
-    "platform" : "Android",
-		"deviceName" : "Galaxy S10",
-		"platformVersion" : "9"
+        "platform" : "Android",
+	"deviceName" : "Galaxy S10",
+	"platformVersion" : "9"
     }
+ 
   ],
 
   logLevel: "info",
